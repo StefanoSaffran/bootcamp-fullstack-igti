@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/tooltip.css" />
+
+  <title>Color Selector</title>
+</head>
+<body>
+
+  <div class="container">
+      <h1>RGB Color Selector</h1>
+      
+    <div class="content">
+      <div class="item">
+        <label for="red">(R) Vermelho</label>
+        <input type="range" name="r-range" id="red" min="0" max="255" value="125">
+        <input type="text" name="r-input" id="red-value" disabled value="125">
+      </div>
+      <div class="item">
+        <label for="green">(G) Verde</label>
+        <input type="range" name="g-range" id="green" min="0" max="255" value="125">
+        <input type="text" name="g-input" id="green-value" disabled value="125">
+      </div>
+      <div class="item">
+        <label for="blue">(B) Azul</label>
+        <input type="range" name="r-range" id="blue" min="0" max="255" value="125">
+        <input type="text" name="b-input" id="blue-value" disabled value="125">
+      </div>
+      
+    </div>  
+
+    <div class="hexContainer">
+      <span id="hex">#7D7D7D</span>
+      <button type="button" onmouseout="outFunc()">
+        <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+        copy
+      </button>
+    </div>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
