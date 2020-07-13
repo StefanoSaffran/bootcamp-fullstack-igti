@@ -21,7 +21,7 @@ Construa, utilizando **HTML**, **CSS** e **JavaScript** puro, uma aplicação pa
 visualização de cores a partir da escala RGB.
 
 > **Preview:**
-> 👉 [IMDB Codenation](https://codenation-react-imdb.netlify.com/)
+> 👉 [RGB Color Selector](rgb-color-selector.netlify.app)
 
 <p align="center">
   <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1594657199/igti/trabalhos-praticos/tfsxnxmromfksd0pr2ch.gif" >
