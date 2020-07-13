@@ -13,7 +13,7 @@
   </a>
 </p>
 
-  ## :mailbox_with_mail: Get in touch!
+  ## :mailbox_with_mail: Entre em contato!
 
 <a href="https://stefanosaffran.com" target="_blank" >
   <img alt="Website - Stefano Saffran" src="https://img.shields.io/badge/Website--%23F8952D?style=social">
@@ -27,4 +27,4 @@
 
 ---
 
-Made with :coffee: and ❤️ by Stefano Saffran.
+Feito com :coffee: e ❤️ por Stefano Saffran.
