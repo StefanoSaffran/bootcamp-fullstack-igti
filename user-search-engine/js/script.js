@@ -83,9 +83,9 @@ const handleSubmit = async event => {
 
   filteredUsers = [];
   const { value } = input;
-  const regex = new RegExp(removeAccents(value), 'i');
+  const regex = new RegExp(value, 'i');
 
-  filteredUsers = allUsers.filter(user => regex.test(removeAccents(user.name)));
+  filteredUsers = allUsers.filter(user => regex.test(user.name));
   
   if (!filteredUsers.length) {
     tabUsers.style.marginTop = '60px';
@@ -118,7 +118,7 @@ const renderUsers = () => {
         <div class="user">
           <img src="${picture}" alt="${name}">
           <div>
-            <span><strong>${name}</strong>, ${age} anos</span>
+            <span><strong>${name}</strong>, ${age}</span>
           </div>
         </div>
       `;
@@ -167,26 +167,5 @@ const renderStatistics = () => {
       <span><strong>Average age: </strong>${statistics.averageAge}</span>
     </div>
   ` 
-}
-
-const removeAccents = newStringWithAccent => {
-  let string = newStringWithAccent;
-  
-	let mapAccentsHex 	= {
-		a : /[\xE0-\xE6]/g,
-		e : /[\xE8-\xEB]/g,
-		i : /[\xEC-\xEF]/g,
-		o : /[\xF2-\xF6]/g,
-		u : /[\xF9-\xFC]/g,
-		c : /\xE7/g,
-		n : /\xF1/g
-	};
-
-	for ( let letter in mapAccentsHex ) {
-		let regex = mapAccentsHex[letter];
-		string = string.replace( regex, letter );
-  }
-
-	return string;
 }
 
