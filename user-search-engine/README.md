@@ -23,7 +23,7 @@ Application, using **HTML**, **CSS** and **Vanilla JavaScript**, to search and f
 > 👉 [User Search Engine](https://user-search-igti-bootcamp.netlify.app/)
 
 <p align="center">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1595325995/igti/desafios/c9dstnvipxz6ymjprtfx.gif" >
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1595325995/igti/desafios/c9dstnvipxz6ymjprtfx.gif" width="95%" >
 </p>
 
 

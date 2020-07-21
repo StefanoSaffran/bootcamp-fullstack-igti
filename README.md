@@ -2,7 +2,7 @@
   <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1594655952/igti/xrqczgfrqnugg8ztjueu.png" />
 </p>
 
-  <h1 align="center" >IGTI FullStack Bootcamp - Challenges</h1>
+  <h1 align="center" >IGTI - FullStack Developer Bootcamp - Challenges</h1>
 
   <p align="center">
   <a href="stefanosaffran.com">
