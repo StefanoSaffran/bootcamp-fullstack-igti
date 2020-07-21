@@ -2,7 +2,7 @@
   <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1594655952/igti/xrqczgfrqnugg8ztjueu.png" />
 </p>
 
-  <h1 align="center" >IGTI - Desafios e Trabalhos práticos</h1>
+  <h1 align="center" >IGTI FullStack Bootcamp - Challenges</h1>
 
   <p align="center">
   <a href="stefanosaffran.com">
@@ -13,7 +13,7 @@
   </a>
 </p>
 
-  ## :mailbox_with_mail: Entre em contato!
+  ## :mailbox_with_mail: Get in touch!
 
 <a href="https://stefanosaffran.com" target="_blank" >
   <img alt="Website - Stefano Saffran" src="https://img.shields.io/badge/Website--%23F8952D?style=social">
@@ -27,4 +27,4 @@
 
 ---
 
-Feito com :coffee: e ❤️ por Stefano Saffran.
+Made with :coffee: and ❤️ by Stefano Saffran.

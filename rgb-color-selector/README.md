@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-  Trabalho prático do Módulo 1
+  Module 1 - Practical work - RGB Color Selector
 </h3>
 
   <p align="center">
@@ -11,14 +11,13 @@
 </p>
 
 <p align="center">
-  <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#mailbox_with_mail-entre-em-contato">Entre em contato</a>
+  <a href="#computer-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#mailbox_with_mail-entre-em-contato">Get in touch!</a>
 </p>
 
-## :computer: Projeto 
+## :computer: Project 
 
-Construa, utilizando **HTML**, **CSS** e **JavaScript** puro, uma aplicação para a
-visualização de cores a partir da escala RGB.
+Application, using **HTML**, **CSS** and **Vanilla JavaScript**, to select colors from the RGB scale.
 
 > **Preview:**
 > 👉 [RGB Color Selector](rgb-color-selector.netlify.app)
@@ -28,7 +27,7 @@ visualização de cores a partir da escala RGB.
 </p>
 
 
-  ## :mailbox_with_mail: Entre em contato!
+  ## :mailbox_with_mail: Get in touch!
 
 <a href="https://stefanosaffran.com" target="_blank" >
   <img alt="Website - Stefano Saffran" src="https://img.shields.io/badge/Website--%23F8952D?style=social">
@@ -42,4 +41,4 @@ visualização de cores a partir da escala RGB.
 
 ---
 
-Feito com :coffee: e ❤️ por Stefano Saffran.
+Made with :coffee: and ❤️ by Stefano Saffran.
