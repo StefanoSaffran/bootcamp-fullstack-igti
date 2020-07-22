@@ -15,6 +15,7 @@
 }
 
 html {
+  font-family: 'Roboto' -apple-system, system-ui, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
@@ -24,6 +25,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #222;
+  padding: 0 30px;
 }
 
 button {

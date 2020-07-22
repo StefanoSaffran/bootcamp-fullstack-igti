@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./css/styles.css" />
   <link rel="stylesheet" href="./css/tooltip.css" />
 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <title>Color Selector</title>
 </head>
 <body>
@@ -16,19 +17,19 @@
       
     <div class="content">
       <div class="item">
-        <label for="red">(R) Vermelho</label>
+        <label for="red">(R) Red</label>
         <input type="range" name="r-range" id="red" min="0" max="255" value="125">
-        <input type="text" name="r-input" id="red-value" disabled value="125">
+        <input type="text" name="r-input" id="red-input" disabled readonly value="125">
       </div>
       <div class="item">
-        <label for="green">(G) Verde</label>
+        <label for="green">(G) Green</label>
         <input type="range" name="g-range" id="green" min="0" max="255" value="125">
-        <input type="text" name="g-input" id="green-value" disabled value="125">
+        <input type="text" name="g-input" id="green-input" disabled readonly value="125">
       </div>
       <div class="item">
-        <label for="blue">(B) Azul</label>
+        <label for="blue">(B) Blue</label>
         <input type="range" name="r-range" id="blue" min="0" max="255" value="125">
-        <input type="text" name="b-input" id="blue-value" disabled value="125">
+        <input type="text" name="b-input" id="blue-input" disabled readonly value="125">
       </div>
       
     </div>  
@@ -37,7 +38,7 @@
       <span id="hex">#7D7D7D</span>
       <button type="button" onmouseout="outFunc()">
         <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-        copy
+        Copy!
       </button>
     </div>
   </div>

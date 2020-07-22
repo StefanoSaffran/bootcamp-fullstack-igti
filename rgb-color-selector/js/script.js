@@ -1,20 +1,40 @@
 window.addEventListener('load', start);
 
-// global variables
-let rangeRed = document.querySelector('#red');
-let rangeGreen = document.querySelector('#green');
-let rangeBlue = document.querySelector('#blue');
-let disabledRed = document.querySelector('#red-value');
-let disabledGreen = document.querySelector('#green-value');
-let disabledBlue = document.querySelector('#blue-value');
-let hexSpan = document.querySelector('#hex');
-let button = document.querySelector('button');
-let tooltip = document.querySelector('#myTooltip');
+let rangeRed = null;
+let rangeGreen = null;
+let rangeBlue = null;
 
-let container = document.querySelector('.container');
-let content = document.querySelector('.content');
+let disabledRed = null;
+let disabledGreen = null;
+let disabledBlue = null;
+
+let hexSpan = null;
+let button = null;
+let tooltip = null;
+
+let container = null;
+let content = null;
 
 function start() {
+  mapElements();
+}
+
+function mapElements() {
+  rangeRed = document.querySelector('#red');
+  rangeGreen = document.querySelector('#green');
+  rangeBlue = document.querySelector('#blue');
+
+  disabledRed = document.querySelector('#red-input');
+  disabledGreen = document.querySelector('#green-input');
+  disabledBlue = document.querySelector('#blue-input');
+
+  hexSpan = document.querySelector('#hex');
+  button = document.querySelector('button');
+  tooltip = document.querySelector('#myTooltip');
+
+  container = document.querySelector('.container');
+  content = document.querySelector('.content');
+
   rangeRed.addEventListener('input', () => updateRangeValue('R'));
   rangeGreen.addEventListener('input', () => updateRangeValue('G'));
   rangeBlue.addEventListener('input', () => updateRangeValue('B'));
@@ -28,16 +48,20 @@ function updateRangeValue(inputColor) {
    ? disabledGreen.value = rangeGreen.value
    : disabledBlue.value = rangeBlue.value
 
-   container.style.boxShadow = `0 0 13px -1px rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`;
-   content.style.borderColor = `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`;
+   updateColors();
+  }
 
-   const hexColor = convertColor(rangeRed.value, rangeGreen.value, rangeBlue.value);
-   hexSpan.textContent = hexColor;
-
-   rangeRed.style.setProperty('--color', `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`);
-   rangeGreen.style.setProperty('--color', `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`);
-   rangeBlue.style.setProperty('--color', `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`);
-   hexSpan.style.setProperty('--color', `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`);
+  function updateColors() {
+    container.style.boxShadow = `0 0 13px -1px rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`;
+    content.style.borderColor = `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`;
+ 
+    const hexColor = convertColor(rangeRed.value, rangeGreen.value, rangeBlue.value);
+    hexSpan.textContent = hexColor;
+ 
+    rangeRed.style.setProperty('--color', `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`);
+    rangeGreen.style.setProperty('--color', `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`);
+    rangeBlue.style.setProperty('--color', `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`);
+    hexSpan.style.setProperty('--color', `rgb(${rangeRed.value}, ${rangeGreen.value}, ${rangeBlue.value})`);
   }
 
   function copyTextToClipboard() {

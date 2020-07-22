@@ -8,8 +8,7 @@ div.container {
   align-items: center;
   justify-content: center;
   
-  padding: 50px 150px;
-  margin: 0 20px;
+  padding: 0 20px;
 
   border-radius: 12px;
   box-shadow: 0px 0px 13px -1px var(--color);
@@ -18,17 +17,11 @@ div.container {
 div.container h1 {
   color: #fff;
   margin-bottom: 45px;
-}
-
-div.colorDiv {
-  width: 50px;
-  height: 50px;
-  background: var(--color);
-  margin-top: 45px;
+  font-size: 24px;
 }
 
 div.content {
-  width: max(100%, 386px);
+  width: min(650px, 100%);
 
   display: flex;
   flex-direction: column;
@@ -49,7 +42,7 @@ label {
 div.item {
   display: flex;
   justify-content: space-between;
-  margin: 15px 30px;
+  margin: 15px 15px;
 }
 
 input[type=text] {
@@ -91,7 +84,23 @@ div.hexContainer button {
  position: relative;
 }
 
-/* Input Range Custom Styles */ 
+@media (max-width: 365px) {
+  input[type=text] {
+    width: 25px;
+  }
+}
+
+@media (min-width: 615px) {
+  div.container h1 {
+    font-size: 32px;
+  }
+
+  div.item {
+    margin: 15px 30px;
+  }
+}
+
+/*          Input Range Custom Styles          */ 
 
 input[type=range]::-webkit-slider-runnable-track {
   background: #fff;
