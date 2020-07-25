@@ -21,9 +21,6 @@ window.addEventListener('load', () => {
   tabUsers = document.querySelector('.users');
   container = document.querySelector('.container');
 
-
-  numberFormat = Intl.NumberFormat('pt-BR');
-
   fetchUsers();
 
   input.addEventListener("keyup", event => { 
@@ -83,8 +80,8 @@ const handleSubmit = async event => {
 
   filteredUsers = [];
   const { value } = input;
-  const regex = new RegExp(value, 'i');
 
+  const regex = new RegExp(value, 'i');
   filteredUsers = allUsers.filter(user => regex.test(user.name));
   
   if (!filteredUsers.length) {
@@ -135,7 +132,6 @@ const renderUsers = () => {
     tabUsers.style.marginTop = '60px';
     tabUsers.appendChild(usersTitle);
     tabStatistics.classList.add('hide');
-
   }
 }
 
