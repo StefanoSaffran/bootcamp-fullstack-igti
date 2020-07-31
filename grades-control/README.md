@@ -17,7 +17,10 @@
 
 ## :computer: Project 
 
-The challenge was to develop an **Node API** to control student grades that has endpoints for creating, updating, deleting and consulting grades and save it in a json file. 
+The challenge was to develop an **Node API** to control student grades that has endpoints for creating, updating, deleting and consulting grades and save it in a json file.
+<p align="center">
+  <a href="https://insomnia.rest/run/?label=Grades%20Control&uri=https%3A%2F%2Fgithub.com%2FStefanoSaffran%2Fbootcamp-fullstack-igti%2Fblob%2Fmaster%2Fgrades-control%2FInsomnia_2020-07-31.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
 
 ## :mailbox_with_mail: Get in touch!
 
