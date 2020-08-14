@@ -1,44 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1594655952/igti/xrqczgfrqnugg8ztjueu.png" />
+</p>
 
-## Available Scripts
+<h3 align="center">
+  Module 3 - React Salary
+</h3>
 
-In the project directory, you can run:
+  <p align="center">
+<img alt="Made by Stefano" src="https://img.shields.io/badge/made%20by-StefanoSaffran-%20">
+</p>
 
-### `yarn start`
+<p align="center">
+  <a href="#computer-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#mailbox_with_mail-entre-em-contato">Get in touch!</a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :computer: Project
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**React** application with **Typescript** that calculates the net salary from the gross salary, considering the rules of the CLT 2020.
 
-### `yarn test`
+> **Netlify:**
+> 👉 [React Salary](https://react-salary-igti.netlify.app/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1597409112/igti/trabalhos-praticos/qms36hju9wrr9daiuqkc.gif" width="95%" >
+</p>
 
-### `yarn build`
+  ## :mailbox_with_mail: Get in touch!
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a href="https://stefanosaffran.com" target="_blank" >
+  <img alt="Website - Stefano Saffran" src="https://img.shields.io/badge/Website--%23F8952D?style=social">
+</a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/stefanosaffran/" target="_blank" >
+  <img alt="Linkedin - Stefano Saffran" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+</a>&nbsp;&nbsp;&nbsp;
+<a href="mailto:stefanoas@gmail.com" target="_blank" >
+  <img alt="Email - Stefano Saffran" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+</a>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with :coffee: and ❤️ by Stefano Saffran.
