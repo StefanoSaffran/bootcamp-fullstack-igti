@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   width: min(1000px, 100%);
-  margin: 70px auto 0;
+  margin: 40px auto;
   padding: 0 20px;
 
   position: relative;
@@ -26,6 +26,10 @@ export const Container = styled.div`
         fill: var(--inss-color) !important;
       }
     }
+  }
+
+  @media (min-width: 700px) {
+    margin-top: 70px;
   }
 `;
 
@@ -93,7 +97,7 @@ export const Results = styled.div`
 
 export const Salary = styled.div`
   width: 100%;
-  margin: 30px 0;
+  margin: 30px 0 20px;
 
   font-size: 2rem;
 
@@ -118,6 +122,7 @@ export const Salary = styled.div`
 
   @media (min-width: 700px) {
     width: 30%;
+    margin: 30px 0;
     padding-top: 0;
 
     border-top: 0;
