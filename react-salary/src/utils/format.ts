@@ -3,8 +3,17 @@ const formatter = Intl.NumberFormat('pt-BR', {
   currency: 'BRL',
 });
 
+const formatterPercent = Intl.NumberFormat('pt-BR', {
+  style: 'percent',
+  minimumFractionDigits: 2,
+});
+
 function formatNumber(value: number): string {
   return formatter.format(value);
 }
 
-export { formatNumber };
+function formatPercentage(total: number, value: number): string {
+  return ((value * 100) / total).toFixed(2);
+}
+
+export { formatNumber, formatPercentage };

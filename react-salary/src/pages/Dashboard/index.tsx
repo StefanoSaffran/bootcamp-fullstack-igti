@@ -2,8 +2,8 @@ import React, { useState, useEffect, useMemo } from 'react';
 
 import { RadialChart } from 'react-vis';
 
-import { calculateSalaryFrom, calcPercentage } from '../../utils/salary';
-import { formatNumber } from '../../utils/format';
+import { calculateSalaryFrom } from '../../utils/salary';
+import { formatNumber, formatPercentage } from '../../utils/format';
 import Input from '../../components/Input';
 
 import { Container, Results, Salary } from './styles';
@@ -39,15 +39,15 @@ const Dashboard: React.FC = () => {
   }, [fullSalary]);
 
   const inssPercentage = useMemo(() => {
-    return calcPercentage(fullSalary, salaryInfo.discountINSS);
+    return formatPercentage(fullSalary, salaryInfo.discountINSS);
   }, [fullSalary, salaryInfo]);
 
   const irpfPercentage = useMemo(() => {
-    return calcPercentage(fullSalary, salaryInfo.discountIRPF);
+    return formatPercentage(fullSalary, salaryInfo.discountIRPF);
   }, [fullSalary, salaryInfo]);
 
   const salaryPercentage = useMemo(() => {
-    return calcPercentage(fullSalary, salaryInfo.netSalary);
+    return formatPercentage(fullSalary, salaryInfo.netSalary);
   }, [fullSalary, salaryInfo]);
 
   return (
@@ -73,7 +73,7 @@ const Dashboard: React.FC = () => {
         <div>
           <span>Desconto INSS</span>
           <strong>
-            {salaryInfo.formattedDiscountINSS}
+            {salaryInfo.formattedDiscountINSS}{' '}
             {Number(salaryInfo.discountINSS) > 0 && `(${inssPercentage})%`}
           </strong>
         </div>
@@ -93,7 +93,7 @@ const Dashboard: React.FC = () => {
       <Salary>
         <span>Salário líquido</span>
         <strong>
-          {salaryInfo.formattedNetSalary}
+          {salaryInfo.formattedNetSalary}{' '}
           {Number(salaryInfo.netSalary) > 0 && `(${salaryPercentage})%`}
         </strong>
       </Salary>

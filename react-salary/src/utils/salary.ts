@@ -46,11 +46,11 @@ function round(value: any): any {
 }
 
 function calculateDiscountINSS(baseINSS: any): any {
-  let discountINSS = 0;
-
   if (baseINSS > 6101.07) {
     return 713.1;
   }
+
+  let discountINSS = 0;
 
   // eslint-disable-next-line no-plusplus
   for (let i = 0; i < INSS_TABLE.length; i++) {
@@ -113,8 +113,4 @@ function calculateSalaryFrom(fullSalary: number): ISalaryInfo {
   };
 }
 
-function calcPercentage(total: number, value: number): string {
-  return ((value * 100) / total).toFixed(2);
-}
-
-export { calculateSalaryFrom, calcPercentage };
+export { calculateSalaryFrom };
