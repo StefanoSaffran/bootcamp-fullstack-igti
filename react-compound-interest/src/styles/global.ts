@@ -2,12 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   :root {
-    --primary-color: #ff9000;
-    --bg-color: #28262e;
-    --text-color: #f0f0f5;
-    --light-color: rgba(255, 255, 255, 0.04);
-    --label-color: rgba(255, 255, 255, 0.6);
-    --sp-color: #fff;
+    --primary-color: #6842C2;
+    --bg-color: #F0F0F7;
+    --text-color: #32264D;
+    --dark-color: rgba(0, 0, 0, 0.04);
+    --label-color: rgba(0, 0, 0, 0.6);
     font-size: 60%;
   }
 
