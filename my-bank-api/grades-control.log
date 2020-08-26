@@ -1,0 +1,242 @@
+2020-08-25T18:45:34.469Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-25T18:45:34.836Z [grades-control] info: connected to MongoDB
+2020-08-26T15:13:12.677Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:13:13.107Z [grades-control] info: connected to MongoDB
+2020-08-26T15:13:37.948Z [grades-control] info: [GET] /accounts
+2020-08-26T15:14:22.864Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:14:23.326Z [grades-control] info: connected to MongoDB
+2020-08-26T15:14:26.035Z [grades-control] info: [GET] /accounts
+2020-08-26T15:14:51.517Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:14:51.777Z [grades-control] info: connected to MongoDB
+2020-08-26T15:17:16.932Z [grades-control] info: [POST] /accounts/withdrawal
+2020-08-26T15:17:26.036Z [grades-control] info: [POST] /accounts/deposit
+2020-08-26T15:23:35.939Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:23:36.304Z [grades-control] info: connected to MongoDB
+2020-08-26T15:36:38.034Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:36:38.474Z [grades-control] info: connected to MongoDB
+2020-08-26T15:36:44.612Z [grades-control] info: [POST] /accounts/deposit
+2020-08-26T15:36:51.192Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T15:39:12.994Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:39:13.383Z [grades-control] info: connected to MongoDB
+2020-08-26T15:39:33.551Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T15:41:57.445Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:41:57.959Z [grades-control] info: connected to MongoDB
+2020-08-26T15:42:00.514Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T15:42:24.308Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:42:24.569Z [grades-control] info: connected to MongoDB
+2020-08-26T15:42:29.864Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T15:42:37.730Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T15:42:37.758Z [grades-control] error: PATCH /accounts/deposit - Account not found.
+2020-08-26T15:45:27.955Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:45:28.339Z [grades-control] info: connected to MongoDB
+2020-08-26T15:45:46.353Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:45:46.618Z [grades-control] info: connected to MongoDB
+2020-08-26T15:45:49.092Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T15:48:15.972Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:48:16.540Z [grades-control] info: connected to MongoDB
+2020-08-26T15:48:20.537Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T15:57:20.811Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:57:21.187Z [grades-control] info: connected to MongoDB
+2020-08-26T15:57:34.405Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T15:57:34.632Z [grades-control] info: connected to MongoDB
+2020-08-26T15:57:49.082Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T16:03:53.661Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:03:54.161Z [grades-control] info: connected to MongoDB
+2020-08-26T16:25:08.438Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:25:08.964Z [grades-control] info: connected to MongoDB
+2020-08-26T16:25:13.049Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T16:25:53.192Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T16:25:58.127Z [grades-control] info: [POST] /accounts/withdrawal
+2020-08-26T16:26:04.224Z [grades-control] info: [PATCH] /accounts/withdrawal
+2020-08-26T16:26:14.817Z [grades-control] info: [PATCH] /accounts/withdrawal
+2020-08-26T16:26:14.846Z [grades-control] error: PATCH /accounts/withdrawal - Withdrawal not permitted, insuffient funds.
+2020-08-26T16:28:19.464Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:29:20.139Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:29:20.480Z [grades-control] info: connected to MongoDB
+2020-08-26T16:29:58.819Z [grades-control] info: [GET] /accounts/balance
+2020-08-26T16:37:34.508Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:37:34.821Z [grades-control] info: connected to MongoDB
+2020-08-26T16:37:35.811Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:37:36.079Z [grades-control] info: connected to MongoDB
+2020-08-26T16:37:47.894Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:37:48.120Z [grades-control] info: connected to MongoDB
+2020-08-26T16:37:55.880Z [grades-control] info: [PATCH] /accounts/withdrawal
+2020-08-26T16:38:07.531Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T16:40:00.750Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:40:01.286Z [grades-control] info: connected to MongoDB
+2020-08-26T16:40:02.604Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:40:02.924Z [grades-control] info: connected to MongoDB
+2020-08-26T16:40:12.167Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:40:12.411Z [grades-control] info: connected to MongoDB
+2020-08-26T16:51:48.006Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:51:48.392Z [grades-control] info: connected to MongoDB
+2020-08-26T16:52:03.821Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:52:04.073Z [grades-control] info: connected to MongoDB
+2020-08-26T16:52:37.361Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:52:37.609Z [grades-control] info: connected to MongoDB
+2020-08-26T16:53:16.039Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:53:16.396Z [grades-control] info: connected to MongoDB
+2020-08-26T16:54:04.633Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:54:04.903Z [grades-control] info: connected to MongoDB
+2020-08-26T16:54:32.661Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T16:54:33.008Z [grades-control] info: connected to MongoDB
+2020-08-26T17:09:13.457Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:09:13.939Z [grades-control] info: connected to MongoDB
+2020-08-26T17:09:18.233Z [grades-control] info: [DELETE] /accounts/
+2020-08-26T17:09:45.561Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:09:45.828Z [grades-control] info: connected to MongoDB
+2020-08-26T17:10:02.817Z [grades-control] info: [POST] /accounts/
+2020-08-26T17:10:16.076Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T17:11:44.211Z [grades-control] info: [DELETE] /accounts/
+2020-08-26T17:11:50.846Z [grades-control] info: [POST] /accounts/
+2020-08-26T17:11:52.962Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T17:29:48.010Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:29:48.417Z [grades-control] info: connected to MongoDB
+2020-08-26T17:30:10.999Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:30:11.271Z [grades-control] info: connected to MongoDB
+2020-08-26T17:34:53.007Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:34:54.982Z [grades-control] info: connected to MongoDB
+2020-08-26T17:55:21.958Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:55:22.346Z [grades-control] info: connected to MongoDB
+2020-08-26T17:58:05.176Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:58:05.644Z [grades-control] info: connected to MongoDB
+2020-08-26T17:58:18.275Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:58:18.529Z [grades-control] info: connected to MongoDB
+2020-08-26T17:58:39.617Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:58:39.873Z [grades-control] info: connected to MongoDB
+2020-08-26T17:59:08.858Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T17:59:09.187Z [grades-control] info: connected to MongoDB
+2020-08-26T18:01:54.522Z [grades-control] info: [PATCH] /accounts/transfer
+2020-08-26T18:01:54.568Z [grades-control] error: PATCH /accounts/transfer - Account not found.
+2020-08-26T18:02:15.681Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T18:02:16.023Z [grades-control] info: connected to MongoDB
+2020-08-26T18:02:17.868Z [grades-control] info: [PATCH] /accounts/transfer
+2020-08-26T18:02:47.734Z [grades-control] info: [PATCH] /accounts/transfer
+2020-08-26T18:37:16.403Z [grades-control] info: [PATCH] /accounts/transfer
+2020-08-26T18:40:47.132Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T18:40:47.517Z [grades-control] info: connected to MongoDB
+2020-08-26T18:43:38.433Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T18:43:38.925Z [grades-control] info: connected to MongoDB
+2020-08-26T18:44:21.888Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T18:44:22.179Z [grades-control] info: connected to MongoDB
+2020-08-26T18:45:02.667Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T18:45:03.196Z [grades-control] info: connected to MongoDB
+2020-08-26T19:32:04.655Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:32:05.042Z [grades-control] info: connected to MongoDB
+2020-08-26T19:32:49.797Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:32:50.119Z [grades-control] info: connected to MongoDB
+2020-08-26T19:37:12.498Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:37:12.856Z [grades-control] info: connected to MongoDB
+2020-08-26T19:37:38.591Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T19:38:14.564Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:38:15.164Z [grades-control] info: connected to MongoDB
+2020-08-26T19:38:17.823Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T19:38:29.734Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:38:29.982Z [grades-control] info: connected to MongoDB
+2020-08-26T19:38:31.539Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T19:38:41.895Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:38:42.193Z [grades-control] info: connected to MongoDB
+2020-08-26T19:38:42.748Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T19:41:31.804Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T19:42:14.596Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:42:14.959Z [grades-control] info: connected to MongoDB
+2020-08-26T19:42:17.198Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T19:42:30.391Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:42:30.652Z [grades-control] info: connected to MongoDB
+2020-08-26T19:42:32.185Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T19:42:32.217Z [grades-control] error: GET /accounts/average-balance - Agency not found.
+2020-08-26T19:52:53.573Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:52:53.959Z [grades-control] info: connected to MongoDB
+2020-08-26T19:53:22.759Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:53:23.052Z [grades-control] info: connected to MongoDB
+2020-08-26T19:55:18.655Z [grades-control] info: [GET] /accounts/lower-balance
+2020-08-26T19:55:23.909Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:55:24.277Z [grades-control] info: connected to MongoDB
+2020-08-26T19:55:24.432Z [grades-control] info: [GET] /accounts/lower-balance
+2020-08-26T19:55:42.322Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T19:55:42.600Z [grades-control] info: connected to MongoDB
+2020-08-26T19:55:44.204Z [grades-control] info: [GET] /accounts/lower-balance
+2020-08-26T19:55:54.835Z [grades-control] info: [GET] /accounts/lower-balance
+2020-08-26T19:56:02.930Z [grades-control] info: [GET] /accounts/lower-balance
+2020-08-26T19:56:13.669Z [grades-control] info: [GET] /accounts/lower-balance
+2020-08-26T19:56:31.095Z [grades-control] info: [GET] /accounts/lower-balance
+2020-08-26T20:05:44.507Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:05:44.867Z [grades-control] info: connected to MongoDB
+2020-08-26T20:12:03.859Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:12:04.715Z [grades-control] info: connected to MongoDB
+2020-08-26T20:12:17.416Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:12:17.676Z [grades-control] info: connected to MongoDB
+2020-08-26T20:13:22.074Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:13:22.396Z [grades-control] info: [GET] /accounts/higher-balance
+2020-08-26T20:13:22.691Z [grades-control] info: connected to MongoDB
+2020-08-26T20:13:28.211Z [grades-control] info: [GET] /accounts/higher-balance
+2020-08-26T20:13:51.436Z [grades-control] info: [GET] /accounts/higher-balance
+2020-08-26T20:18:03.484Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:18:04.037Z [grades-control] info: connected to MongoDB
+2020-08-26T20:22:01.868Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:22:02.294Z [grades-control] info: connected to MongoDB
+2020-08-26T20:22:04.822Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:22:05.105Z [grades-control] info: connected to MongoDB
+2020-08-26T20:22:35.962Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T20:23:57.797Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:23:58.167Z [grades-control] info: connected to MongoDB
+2020-08-26T20:24:01.127Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T20:34:35.184Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:34:35.533Z [grades-control] info: connected to MongoDB
+2020-08-26T20:34:47.620Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T20:36:34.318Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:36:34.647Z [grades-control] info: connected to MongoDB
+2020-08-26T20:36:40.267Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:36:40.525Z [grades-control] info: connected to MongoDB
+2020-08-26T20:36:41.514Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T20:37:36.694Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:37:37.039Z [grades-control] info: connected to MongoDB
+2020-08-26T20:37:39.912Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T20:38:25.990Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:38:26.239Z [grades-control] info: connected to MongoDB
+2020-08-26T20:38:27.694Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T20:41:01.888Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:41:02.222Z [grades-control] info: connected to MongoDB
+2020-08-26T20:41:06.541Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T20:43:05.506Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:43:05.899Z [grades-control] info: connected to MongoDB
+2020-08-26T20:54:44.892Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:54:45.280Z [grades-control] info: connected to MongoDB
+2020-08-26T20:57:26.383Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:57:26.900Z [grades-control] info: connected to MongoDB
+2020-08-26T20:58:17.803Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T20:58:18.108Z [grades-control] info: connected to MongoDB
+2020-08-26T21:27:01.106Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T21:27:01.489Z [grades-control] info: connected to MongoDB
+2020-08-26T21:27:25.265Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T21:27:25.499Z [grades-control] info: connected to MongoDB
+2020-08-26T21:27:27.343Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T21:28:57.999Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T21:28:58.343Z [grades-control] info: connected to MongoDB
+2020-08-26T21:29:04.460Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T21:29:39.145Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T21:29:39.394Z [grades-control] info: connected to MongoDB
+2020-08-26T21:30:30.835Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T21:30:31.200Z [grades-control] info: connected to MongoDB
+2020-08-26T21:30:33.978Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T21:31:39.421Z [grades-control] info: [GET] /accounts/balance
+2020-08-26T21:31:44.281Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T21:31:48.685Z [grades-control] info: [GET] /accounts/higher-balance
+2020-08-26T21:34:17.519Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T21:34:17.829Z [grades-control] info: connected to MongoDB
+2020-08-26T21:34:20.901Z [grades-control] info: [GET] /accounts/higher-balance
+2020-08-26T21:34:29.744Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T21:40:00.013Z [grades-control] info: [PATCH] /accounts/deposit
+2020-08-26T21:40:27.355Z [grades-control] info: [PATCH] /accounts/withdrawal
+2020-08-26T21:44:33.490Z [grades-control] info: [GET] /accounts/balance
+2020-08-26T21:45:33.650Z [grades-control] info: [DELETE] /accounts/
+2020-08-26T21:46:24.201Z [grades-control] info: [PATCH] /accounts/transfer
+2020-08-26T21:47:14.962Z [grades-control] info: [PATCH] /accounts/transfer
+2020-08-26T21:47:32.354Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T21:47:43.377Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T21:48:04.816Z [grades-control] info: [GET] /accounts/lower-balance
+2020-08-26T21:48:48.213Z [grades-control] info: [GET] /accounts/higher-balance
+2020-08-26T21:50:36.877Z [grades-control] info: [PATCH] /accounts/private-agency
+2020-08-26T21:51:18.965Z [grades-control] info: [GET] /accounts/average-balance
+2020-08-26T22:02:36.817Z [grades-control] info: 🚀 Server running on port 3333!
+2020-08-26T22:02:37.131Z [grades-control] info: connected to MongoDB
